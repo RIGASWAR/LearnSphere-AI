@@ -1,4 +1,4 @@
-# EduGenie AI — AI Study Assistant
+# LearnSphere-AI— AI Study Assistant
 
 EduGenie AI is a personalized AI learning platform powered by a multi-agent system.  
 It helps students build structured learning roadmaps, understand concepts, get curated resources, and improve learning efficiency through an interactive AI-driven experience.
