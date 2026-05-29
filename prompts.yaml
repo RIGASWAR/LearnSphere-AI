@@ -1,0 +1,31 @@
+prompts:
+  student_analysis:
+    base: |
+      Analyze the student profile:
+      Topic: {topic}
+      Level: {knowledge_level}
+      Goal: {learning_goal}
+
+  roadmap_creation:
+    base: |
+      Create a structured roadmap for:
+      {topic}
+      Based on analysis:
+      {student_analysis}
+
+  quiz_generation:
+    base: |
+      Generate {num_questions} questions on {topic}
+      Difficulty: {difficulty_level}
+
+  tutoring:
+    base: |
+      You are an AI tutor.
+      Question: {student_question}
+      Context: {context}
+
+  rag_query:
+    base: |
+      Answer using provided context:
+      {context}
+      Question: {question}

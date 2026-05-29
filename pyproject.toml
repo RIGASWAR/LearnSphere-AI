@@ -1,0 +1,26 @@
+[project]
+name = "edugenie-ai"
+version = "1.0.0"
+description = "Multi-Agent AI Learning Assistant with RAG, Gamification and Voice AI"
+authors = [
+    { name = "Shobi" }
+]
+dependencies = [
+    "streamlit",
+    "python-dotenv",
+    "matplotlib",
+    "speechrecognition",
+    "pyttsx3",
+    "langchain",
+    "langchain-community",
+    "langchain-chroma",
+    "chromadb",
+    "openai"
+]
+
+[project.optional-dependencies]
+dev = []
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
